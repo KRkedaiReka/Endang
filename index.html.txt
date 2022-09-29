@@ -1,7 +1,0 @@
-<!DOCTYPE html>
-<html>
-<head><title>latihan pertama</title></head>
-<body>
-	<h1>Helloo</h1>
-</body>
-</html>
