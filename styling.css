@@ -1,461 +1,672 @@
-.breadcrumb-section {
-    background: #f5f5f5;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ebebeb;
+.header {
+    background-size: 20rem;
+    background-color: blueviolet;
 }
 
-.breadcrumb {
-    padding: 10px 0;
-}
 
-.img-contain-center {
-    object-fit: contain;
-    object-position: center;
-    background: #1c1c1c;
-    /*border: 3px solid #000;*/
-}
-
-.h-100-p {
-    height: 100%;
-}
-
-.h-213 {
-    height: 213px;
-}
-
-.h-144 {
-    height: 144px;
-}
-
-.bg-01 {
-    background: linear-gradient(45deg, #0c00ff, #ff0029) !important;
-    /*background: linear-gradient(45deg,#04a858,#3d49a6) !important;*/
-}
-
-.bg-02 {
-    background: url(https://www.kebumenkab.go.id/uploads/config/pattern.png) !important;
-}
-
-.bg-03 {
-    background: linear-gradient(22deg, #5934fc 0, #a34ffe 100%) !important;
-}
-
-.bg-04 {
-    background: linear-gradient(22deg, #E91E63 0, #3F51B5 100%) !important;
-}
-
-.block-title a {
-    color: #009688;
-}
-
-.block-title a:hover {
-    color: #000;
-}
-
-.block-title:hover .title-angle-shap::after,
-.block-title:hover .title-angle-shap::before {
-    background: #000;
-}
-
-.text-light .block-title a {
-    color: #ffffff;
-}
-
-.text-light .block-title a:hover {
-    color: #009688;
-}
-
-.text-light:hover .block-title .title-angle-shap::after,
-.text-light:hover .block-title .title-angle-shap::before {
-    background: #009688;
-}
-
-.ts-social-list.style2 li.ts-rss a {
-    background: rgb(0 0 0 / .5) !important;
-    border: 0;
-}
-
-.ts-social-list.style2 li.ts-rss a .tsicon {
-    background: #04a858 !important;
-}
-
-.deprt-icon-box {
-    background: #fff;
-    border-radius: 5px;
-    text-align: center;
-    /*box-shadow: 0px 5px 15px 0 rgba(0,0,0,.07);*/
-    border: 1px solid #ebebeb;
-    padding: 20px;
-    position: relative;
-    display: block;
-}
-
-.deprt-icon-box img {
-    margin: 0 0 20px;
-    width: 85px;
-    height: 85px;
-}
-
-.deprt-icon-box i {
-    padding: 17px;
-    width: 90px;
-    height: 90px;
-    line-height: 97px;
-    font-size: 30px;
-    border-radius: 8px;
-    color: #1e27f9;
-    background-color: #ccceff;
-    /* color: #50cc59; */
-    /* background-color: #dbf5de; */
-    /* color: #04a759; */
-    /* background-color: #d0e6d2; */
-}
-
-.deprt-icon-box h6 {
-    line-height: 22px;
-    margin: 0;
-    font-weight: 600;
-    color: #222;
-    font-size: 16px;
-}
-
-.deprt-icon-box:hover h6 {
-    color: #009688;
-}
-
-.trending-light {
-    color: #ffffff;
-}
-
-.trending-bar {
-    background: #1c1c1c;
-}
-
-.trending-bar .top-social {
-    margin-right: 0;
-    background: transparent;
-}
-
-.trending-bar .top-social ul {
-    border-left: none;
-    border-right: none;
-}
-
-.trending-bar .top-social ul li a {
-    line-height: unset;
-}
-
-.trending-bar .post-title {
-    line-height: 22px;
-}
+/*element.style {}*/
 
 .main-nav {
     background: #fff;
     border-bottom: 1px solid #ebebeb;
 }
 
-.nav-search {
+.main-nav {
+    position: relative;
+    padding: 0 15px;
+}
+
+.main-nav {
+    background: -webkit-linear-gradient(70deg, #f84270 0, #fe803b 100%);
+    background: -o-linear-gradient(70deg, #f84270 0, #fe803b 100%);
+    background: linear-gradient(20deg, #f84270 0, #fe803b 100%);
+    min-height: 70px;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+body,
+p {
+    font-family: Roboto, sans-serif;
+    line-height: 24px;
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+}
+
+body {
     background: #fff;
-    border-right: 0;
-    border-left: 0;
-    width: 42px;
-    line-height: 80px;
+    color: #000;
 }
 
-.nav-search a {
-    color: #1c1c1c;
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
 }
 
-.nav-search a .icon {
-    font-weight: bold;
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.transing-slide-style2.owl-carousel .owl-nav .owl-prev {
-    left: 25px;
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
 
-.transing-slide-style2.owl-carousel .owl-nav .owl-next {
-    right: 25px;
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
 }
 
-.bg-banner {
-    background: #1b1f2b;
-    padding: 30px 0;
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
 }
 
-.bg-banner .ts-grid-box {
-    background: #fff;
-    border-radius: 5px;
-    padding: 7px;
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
 }
 
-.ts-comments-row {
-    margin-bottom: 30px;
-}
 
-.ts-author-comments::after {
-    bottom: 0;
-    height: 100%;
-    background: #ebebeb;
-}
 
-.ts-author-media {
-    padding: 0;
-}
 
-.ts-author-thumb {
-    /*width: 100%; */
-    height: 100%;
-    border-radius: 0;
-    margin-bottom: 18px;
-}
 
-.ts-author-content {
-    padding: 20px 12px 12px;
-    border: 1px solid #ebebeb;
-}
 
-.list-post-block.style2 .list-post li .post-block-style.media {
-    border-bottom: 1px dotted #fff;
-    padding: 10px 0;
-}
 
-.list-post-block.style2 .list-post li:first-child .post-block-style.media {
-    padding-top: 0;
-}
 
-.main-nav ul.navbar-nav>li>a {
-    font-size: 10.40pt;
-}
+    <style type="text/css" media="screen">
+        .breadcrumb-section {
+            background: #f5f5f5;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ebebeb;
+        }
+        
+        .breadcrumb {
+            padding: 10px 0;
+        }
+        
+        .img-contain-center {
+            object-fit: contain;
+            object-position: center;
+            background: #1c1c1c;
+            /*border: 3px solid #000;*/
+        }
+        
+        .h-100-p {
+            height: 100%;
+        }
+        
+        .h-213 {
+            height: 213px;
+        }
+        
+        .h-144 {
+            height: 144px;
+        }
+        
+        .bg-01 {
+            background: linear-gradient(45deg, #0c00ff, #ff0029) !important;
+            /*background: linear-gradient(45deg,#04a858,#3d49a6) !important;*/
+        }
+        
+        .bg-02 {
+            background: url(https://www.kebumenkab.go.id/uploads/config/pattern.png) !important;
+        }
+        
+        .bg-03 {
+            background: linear-gradient(22deg, #5934fc 0, #a34ffe 100%) !important;
+        }
+        
+        .bg-04 {
+            background: linear-gradient(22deg, #E91E63 0, #3F51B5 100%) !important;
+        }
+        
+        .block-title a {
+            color: #009688;
+        }
+        
+        .block-title a:hover {
+            color: #000;
+        }
+        
+        .block-title:hover .title-angle-shap::after,
+        .block-title:hover .title-angle-shap::before {
+            background: #000;
+        }
+        
+        .text-light .block-title a {
+            color: #ffffff;
+        }
+        
+        .text-light .block-title a:hover {
+            color: #009688;
+        }
+        
+        .text-light:hover .block-title .title-angle-shap::after,
+        .text-light:hover .block-title .title-angle-shap::before {
+            background: #009688;
+        }
+        
+        .ts-social-list.style2 li.ts-rss a {
+            background: rgb(0 0 0 / .5) !important;
+            border: 0;
+        }
+        
+        .ts-social-list.style2 li.ts-rss a .tsicon {
+            background: #04a858 !important;
+        }
+        
+        .deprt-icon-box {
+            background: #fff;
+            border-radius: 5px;
+            text-align: center;
+            /*box-shadow: 0px 5px 15px 0 rgba(0,0,0,.07);*/
+            border: 1px solid #ebebeb;
+            padding: 20px;
+            position: relative;
+            display: block;
+        }
+        
+        .deprt-icon-box img {
+            margin: 0 0 20px;
+            width: 85px;
+            height: 85px;
+        }
+        
+        .deprt-icon-box i {
+            padding: 17px;
+            width: 90px;
+            height: 90px;
+            line-height: 97px;
+            font-size: 30px;
+            border-radius: 8px;
+            color: #1e27f9;
+            background-color: #ccceff;
+            /* color: #50cc59; */
+            /* background-color: #dbf5de; */
+            /* color: #04a759; */
+            /* background-color: #d0e6d2; */
+        }
+        
+        .deprt-icon-box h6 {
+            line-height: 22px;
+            margin: 0;
+            font-weight: 600;
+            color: #222;
+            font-size: 16px;
+        }
+        
+        .deprt-icon-box:hover h6 {
+            color: #009688;
+        }
+        
+        .trending-light {
+            color: #ffffff;
+        }
+        
+        .trending-bar {
+            background: #1c1c1c;
+        }
+        
+        .trending-bar .top-social {
+            margin-right: 0;
+            background: transparent;
+        }
+        
+        .trending-bar .top-social ul {
+            border-left: none;
+            border-right: none;
+        }
+        
+        .trending-bar .top-social ul li a {
+            line-height: unset;
+        }
+        
+        .trending-bar .post-title {
+            line-height: 22px;
+        }
+        
+        .main-nav {
+            background: #fff;
+            border-bottom: 1px solid #ebebeb;
+        }
+        
+        .nav-search {
+            background: #fff;
+            border-right: 0;
+            border-left: 0;
+            width: 42px;
+            line-height: 80px;
+        }
+        
+        .nav-search a {
+            color: #1c1c1c;
+        }
+        
+        .nav-search a .icon {
+            font-weight: bold;
+        }
+        
+        .transing-slide-style2.owl-carousel .owl-nav .owl-prev {
+            left: 25px;
+        }
+        
+        .transing-slide-style2.owl-carousel .owl-nav .owl-next {
+            right: 25px;
+        }
+        
+        .bg-banner {
+            background: #1b1f2b;
+            padding: 30px 0;
+        }
+        
+        .bg-banner .ts-grid-box {
+            background: #fff;
+            border-radius: 5px;
+            padding: 7px;
+        }
+        
+        .ts-comments-row {
+            margin-bottom: 30px;
+        }
+        
+        .ts-author-comments::after {
+            bottom: 0;
+            height: 100%;
+            background: #ebebeb;
+        }
+        
+        .ts-author-media {
+            padding: 0;
+        }
+        
+        .ts-author-thumb {
+            /*width: 100%; */
+            height: 100%;
+            border-radius: 0;
+            margin-bottom: 18px;
+        }
+        
+        .ts-author-content {
+            padding: 20px 12px 12px;
+            border: 1px solid #ebebeb;
+        }
+        
+        .list-post-block.style2 .list-post li .post-block-style.media {
+            border-bottom: 1px dotted #fff;
+            padding: 10px 0;
+        }
+        
+        .list-post-block.style2 .list-post li:first-child .post-block-style.media {
+            padding-top: 0;
+        }
+        
+        .main-nav ul.navbar-nav>li>a {
+            font-size: 10.40pt;
+        }
+        
+        @media (min-width: 1200px) {
+            .main-nav ul.navbar-nav>li>a {
+                padding: 0 10px;
+            }
+            .main-nav ul.navbar-nav>li:first-child>a {
+                padding-left: 0;
+            }
+            .main-nav ul.navbar-nav>li:last-child>a {
+                padding-right: 0;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .post-overaly-style.post-lg {
+                /*min-height: 790px ;*/
+                min-height: 576px;
+            }
+            .main-nav ul.navbar-nav>li>a {
+                line-height: 80px;
+            }
+            .main-nav ul.navbar-nav>li>a::before {
+                display: none
+            }
+            .main-nav ul.navbar-nav>li>a::after {
+                display: none
+            }
+            ul.navbar-nav>li>a {
+                color: #1c1c1c;
+            }
+        }
+        
+        @media (max-width: 1199px) {
+            .post-overaly-style.post-lg {
+                /*min-height: 645px ;*/
+                min-height: 360px;
+            }
+        }
+        
+        @media (max-width: 991px) {
+            .post-overaly-style.post-lg {
+                /*min-height: 510px;*/
+                min-height: 312px;
+            }
+            .dropdown-menu {
+                top: 0;
+            }
+            .logo-2 img {
+                position: absolute;
+                top: -56px;
+                left: calc(50% - 80px);
+                width: 160px;
+            }
+            .nav-search {
+                line-height: 68px;
+            }
+        }
+        
+        @media (max-width:767px) {
+            .post-overaly-style.post-lg {
+                /*min-height: 350px;*/
+                min-height: 232px;
+            }
+        }
+        
+        @media (max-width:575px) {
+            .post-overaly-style.post-lg {
+                /*min-height: 360px;*/
+                min-height: 184px;
+            }
+        }
+    </style>
+    <!-- END CSS -->
+    <!-- JS -->
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js"></script>
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-127560459-1&amp;l=dataLayer&amp;cx=c"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-211293392-1&amp;l=dataLayer&amp;cx=c"></script>
+    <script src="https://www.kebumenkab.go.id/assets/theme/js/jquery.js"></script>
+    <script src="https://www.kebumenkab.go.id/assets/theme/js/popper.min.js"></script>
+    <script src="https://www.kebumenkab.go.id/assets/theme/js/bootstrap.min.js"></script>
+    <script src="https://www.kebumenkab.go.id/assets/theme/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://www.kebumenkab.go.id/assets/theme/js/owl.carousel.min.js"></script>
+    <script src="https://www.kebumenkab.go.id/assets/theme/js/jquery.colorbox.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-R15LTX05XS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-@media (min-width: 1200px) {
-    .main-nav ul.navbar-nav>li>a {
-        padding: 0 10px;
-    }
-    .main-nav ul.navbar-nav>li:first-child>a {
-        padding-left: 0;
-    }
-    .main-nav ul.navbar-nav>li:last-child>a {
-        padding-right: 0;
-    }
-}
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-@media (min-width: 992px) {
-    .post-overaly-style.post-lg {
-        /*min-height: 790px ;*/
-        min-height: 576px;
-    }
-    .main-nav ul.navbar-nav>li>a {
-        line-height: 80px;
-    }
-    .main-nav ul.navbar-nav>li>a::before {
-        display: none
-    }
-    .main-nav ul.navbar-nav>li>a::after {
-        display: none
-    }
-    ul.navbar-nav>li>a {
-        color: #1c1c1c;
-    }
-}
+        gtag('config', 'G-R15LTX05XS');
+    </script>
+    <style>
+        #gpr-kominfo-widget-footer,
+        #gpr-kominfo-widget-header {
+            background-size: 100% 100%!important;
+            background-repeat: no-repeat!important
+        }
+        
+        #gpr-kominfo-widget-container {
+            background-color: #23277B!important;
+            width: 100%!important;
+            min-width: 200px!important;
+            max-width: 786px!important;
+            border-top: 5px solid #23277B!important;
+            -webkit-border-radius: 5px!important;
+            -moz-border-radius: 5px!important;
+            border-radius: 5px!important
+        }
+        
+        #gpr-kominfo-widget-header {
+            background-color: #23277B!important;
+            background-image: url(https://widget.kominfo.go.id/images/g20-header.jpeg);
+            background-position: center center!important;
+            padding: 5px!important;
+            margin-right: 5px!important;
+            border-left: 6px solid #23277B!important;
+            height: 70px!important
+        }
+        
+        #gpr-kominfo-widget-footer {
+            background-image: url(https://widget.kominfo.go.id/images/g20-footer.jpeg);
+            background-position: top!important;
+            height: 55px!important;
+            margin: -10px 5px 5px
+        }
+        
+        #gpr-kominfo-widget-body {
+            background-color: #fff!important;
+            padding: 5px!important;
+            margin: 5px 5px 0!important;
+            word-wrap: break-word!important;
+            -webkit-border-radius: 2px 5px 5px!important;
+            -moz-border-radius: 2px 5px 5px!important;
+            border-radius: 2px 5px 5px!important
+        }
+        
+        #gpr-kominfo-widget-list {
+            margin: -5px 0 0!important;
+            padding: 0!important;
+            border: 0!important
+        }
+        
+        li.gpr-kominfo-widget-list-item {
+            font-family: Arial, Helvetica, sans-serif!important;
+            font-size: 14px!important;
+            background-size: 55px!important;
+            padding-left: 64px!important;
+            padding-top: 10px!important;
+            padding-bottom: 10px!important;
+            border-bottom: 1px dotted #23277B!important;
+            list-style: none!important;
+            text-decoration: none!important
+        }
+        
+        li.gpr-kominfo-widget-icon-rilis-media-gpr {
+            background: url(https://widget.kominfo.go.id/images/rilismediagpr.png) left center no-repeat;
+            background-size: 55px!important
+        }
+        
+        li.gpr-kominfo-widget-icon-artikel-berita-gpr {
+            background: url(https://widget.kominfo.go.id/images/artikelberitagpr.png) left center no-repeat;
+            background-size: 55px!important
+        }
+        
+        li.gpr-kominfo-widget-icon-infografis-gpr {
+            background: url(https://widget.kominfo.go.id/images/infografisgpr.png) left center no-repeat;
+            background-size: 55px!important
+        }
+        
+        li.gpr-kominfo-widget-icon-laporan-gpr {
+            background: url(https://widget.kominfo.go.id/images/laporangpr.png) left center no-repeat;
+            background-size: 55px!important
+        }
+        
+        li.gpr-kominfo-widget-icon-lawan-covid-19 {
+            background: url(https://widget.kominfo.go.id/images/lawancovid19.png) left center no-repeat;
+            background-size: 55px!important
+        }
+        
+        li.gpr-kominfo-widget-icon-hoaks {
+            background: url(https://widget.kominfo.go.id/images/hoaks.png) left center no-repeat;
+            background-size: 55px!important
+        }
+        
+        li.gpr-kominfo-widget-icon-berita-pemerintahan {
+            background: url(https://widget.kominfo.go.id/images/beritapemerintahan.png) left center no-repeat;
+            background-size: 55px!important
+        }
+        
+        li.gpr-kominfo-widget-icon-artikel {
+            background: url(https://widget.kominfo.go.id/images/artikel.png) left center no-repeat;
+            background-size: 55px!important
+        }
+        
+        li.gpr-kominfo-widget-icon-infografis {
+            background: url(https://widget.kominfo.go.id/images/infografis.png) left center no-repeat;
+            background-size: 55px!important
+        }
+        
+        li.gpr-kominfo-widget-icon-rilis-media {
+            background: url(https://widget.kominfo.go.id/images/rilis-media.png) left center no-repeat;
+            background-size: 55px!important
+        }
+        
+        li.gpr-kominfo-widget-icon-berita-terkini {
+            background: url(https://widget.kominfo.go.id/images/berita-terkini.png) left center no-repeat;
+            background-size: 55px!important
+        }
+        
+        li.gpr-kominfo-widget-icon-debug-hoaks {
+            background: url(https://widget.kominfo.go.id/images/debug-hoaks.png) left center no-repeat;
+            background-size: 55px!important
+        }
+        
+        li.gpr-kominfo-widget-list-item a {
+            text-decoration: none!important;
+            color: #171717!important
+        }
+        
+        li.gpr-kominfo-widget-list-item a:hover {
+            color: #1474A7!important
+        }
+        
+        li.gpr-kominfo-widget-list-item small {
+            color: #23277B!important
+        }
+        
+        li.gpr-kominfo-widget-list-item p.testing {
+            background-color: #000!important;
+            margin-top: 0!important;
+            margin-bottom: -2px!important
+        }
+        
+        .gpr-kominfo-align-left {
+            float: left!important;
+            font-size: 80%!important;
+            font-weight: 700!important
+        }
+        
+        .gpr-kominfo-align-right {
+            float: right!important;
+            padding-right: 20px!important;
+            font-size: 80%!important
+        }
+        
+        .gpr-kominfo-clear-fix {
+            clear: both!important
+        }
+        
+        .gpr-small-date {
+            font-size: 70%!important
+        }
+    </style>
 
-@media (max-width: 1199px) {
-    .post-overaly-style.post-lg {
-        /*min-height: 645px ;*/
-        min-height: 360px;
-    }
-}
 
-@media (max-width: 991px) {
-    .post-overaly-style.post-lg {
-        /*min-height: 510px;*/
-        min-height: 312px;
-    }
-    .dropdown-menu {
-        top: 0;
-    }
-    .logo-2 img {
-        position: absolute;
-        top: -56px;
-        left: calc(50% - 80px);
-        width: 160px;
-    }
-    .nav-search {
-        line-height: 68px;
-    }
-}
-
-@media (max-width:767px) {
-    .post-overaly-style.post-lg {
-        /*min-height: 350px;*/
-        min-height: 232px;
-    }
-}
-
-@media (max-width:575px) {
-    .post-overaly-style.post-lg {
-        /*min-height: 360px;*/
-        min-height: 184px;
-    }
-}
-
-#gpr-kominfo-widget-footer,
-#gpr-kominfo-widget-header {
-    background-size: 100% 100%!important;
-    background-repeat: no-repeat!important
-}
-
-#gpr-kominfo-widget-container {
-    background-color: #23277B!important;
-    width: 100%!important;
-    min-width: 200px!important;
-    max-width: 786px!important;
-    border-top: 5px solid #23277B!important;
-    -webkit-border-radius: 5px!important;
-    -moz-border-radius: 5px!important;
-    border-radius: 5px!important
-}
-
-#gpr-kominfo-widget-header {
-    background-color: #23277B!important;
-    background-image: url(https://widget.kominfo.go.id/images/g20-header.jpeg);
-    background-position: center center!important;
-    padding: 5px!important;
-    margin-right: 5px!important;
-    border-left: 6px solid #23277B!important;
-    height: 70px!important
-}
-
-#gpr-kominfo-widget-footer {
-    background-image: url(https://widget.kominfo.go.id/images/g20-footer.jpeg);
-    background-position: top!important;
-    height: 55px!important;
-    margin: -10px 5px 5px
-}
-
-#gpr-kominfo-widget-body {
-    background-color: #fff!important;
-    padding: 5px!important;
-    margin: 5px 5px 0!important;
-    word-wrap: break-word!important;
-    -webkit-border-radius: 2px 5px 5px!important;
-    -moz-border-radius: 2px 5px 5px!important;
-    border-radius: 2px 5px 5px!important
-}
-
-#gpr-kominfo-widget-list {
-    margin: -5px 0 0!important;
-    padding: 0!important;
-    border: 0!important
-}
-
-li.gpr-kominfo-widget-list-item {
-    font-family: Arial, Helvetica, sans-serif!important;
-    font-size: 14px!important;
-    background-size: 55px!important;
-    padding-left: 64px!important;
-    padding-top: 10px!important;
-    padding-bottom: 10px!important;
-    border-bottom: 1px dotted #23277B!important;
-    list-style: none!important;
-    text-decoration: none!important
-}
-
-li.gpr-kominfo-widget-icon-rilis-media-gpr {
-    background: url(https://widget.kominfo.go.id/images/rilismediagpr.png) left center no-repeat;
-    background-size: 55px!important
-}
-
-li.gpr-kominfo-widget-icon-artikel-berita-gpr {
-    background: url(https://widget.kominfo.go.id/images/artikelberitagpr.png) left center no-repeat;
-    background-size: 55px!important
-}
-
-li.gpr-kominfo-widget-icon-infografis-gpr {
-    background: url(https://widget.kominfo.go.id/images/infografisgpr.png) left center no-repeat;
-    background-size: 55px!important
-}
-
-li.gpr-kominfo-widget-icon-laporan-gpr {
-    background: url(https://widget.kominfo.go.id/images/laporangpr.png) left center no-repeat;
-    background-size: 55px!important
-}
-
-li.gpr-kominfo-widget-icon-lawan-covid-19 {
-    background: url(https://widget.kominfo.go.id/images/lawancovid19.png) left center no-repeat;
-    background-size: 55px!important
-}
-
-li.gpr-kominfo-widget-icon-hoaks {
-    background: url(https://widget.kominfo.go.id/images/hoaks.png) left center no-repeat;
-    background-size: 55px!important
-}
-
-li.gpr-kominfo-widget-icon-berita-pemerintahan {
-    background: url(https://widget.kominfo.go.id/images/beritapemerintahan.png) left center no-repeat;
-    background-size: 55px!important
-}
-
-li.gpr-kominfo-widget-icon-artikel {
-    background: url(https://widget.kominfo.go.id/images/artikel.png) left center no-repeat;
-    background-size: 55px!important
-}
-
-li.gpr-kominfo-widget-icon-infografis {
-    background: url(https://widget.kominfo.go.id/images/infografis.png) left center no-repeat;
-    background-size: 55px!important
-}
-
-li.gpr-kominfo-widget-icon-rilis-media {
-    background: url(https://widget.kominfo.go.id/images/rilis-media.png) left center no-repeat;
-    background-size: 55px!important
-}
-
-li.gpr-kominfo-widget-icon-berita-terkini {
-    background: url(https://widget.kominfo.go.id/images/berita-terkini.png) left center no-repeat;
-    background-size: 55px!important
-}
-
-li.gpr-kominfo-widget-icon-debug-hoaks {
-    background: url(https://widget.kominfo.go.id/images/debug-hoaks.png) left center no-repeat;
-    background-size: 55px!important
-}
-
-li.gpr-kominfo-widget-list-item a {
-    text-decoration: none!important;
-    color: #171717!important
-}
-
-li.gpr-kominfo-widget-list-item a:hover {
-    color: #1474A7!important
-}
-
-li.gpr-kominfo-widget-list-item small {
-    color: #23277B!important
-}
-
-li.gpr-kominfo-widget-list-item p.testing {
-    background-color: #000!important;
-    margin-top: 0!important;
-    margin-bottom: -2px!important
-}
-
-.gpr-kominfo-align-left {
-    float: left!important;
-    font-size: 80%!important;
-    font-weight: 700!important
-}
-
-.gpr-kominfo-align-right {
-    float: right!important;
-    padding-right: 20px!important;
-    font-size: 80%!important
-}
-
-.gpr-kominfo-clear-fix {
-    clear: both!important
-}
-
-.gpr-small-date {
-    font-size: 70%!important
-}
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta name="MSSmartTagsPreventParsing" content="true">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
+    <meta name="Distribution" content="Global">
+    <meta name="spiders" content="follow, all">
+    <meta name="webcrawlers" content="follow, all">
+    <meta name="googlebot" content="follow, all, index">
+    <meta name="Googlebot-Image" content="follow, all, index">
+    <meta name="Scooter" content="follow, all">
+    <meta name="msnbot" content="follow, all">
+    <meta name="Slurp" content="follow, all">
+    <meta name="ZyBorg" content="follow, all">
+    <meta name="revisit-after" content="2 days">
+    <meta name="yahoobot" content="all, index, follow">
+    <meta name="bingbot" content="all, index, follow">
+    <meta name="language" content="id">
+    <meta name="geo.country" content="id">
+    <meta name="geo.placename" content="Indonesia">
+    <meta name="rating" content="general">
+    <meta name="generator" content="website">
+    <meta name="copyright" content="Pemerintah Kabupaten Kebumen">
+    <meta name="author" content="Pemerintah Kabupaten Kebumen">
+    <meta name="keywords" content="Beranda - Website Resmi Pemerintah Kabupaten Kebumen">
+    <meta name="subject" content="Beranda - Website Resmi Pemerintah Kabupaten Kebumen">
+    <meta name="description" content="Beranda">
+    <meta name="abstract" content="Beranda">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:image" content="https://www.kebumenkab.go.id/uploads/config/no-img-2.jpg">
+    <meta property="og:title" content="Beranda - Website Resmi Pemerintah Kabupaten Kebumen">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Beranda">
+    <meta property="og:url" content="https://www.kebumenkab.go.id/">
+    <meta property="og:site_name" content="Website Resmi Pemerintah Kabupaten Kebumen">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="https://www.kebumenkab.go.id/uploads/config/no-img-2.jpg">
+    <meta property="twitter:url" content="https://www.kebumenkab.go.id/">
+    <meta property="twitter:title" content="Beranda - Website Resmi Pemerintah Kabupaten Kebumen">
+    <meta property="twitter:description" content="Beranda">
+    <meta property="twitter:image" content="https://www.kebumenkab.go.id/uploads/config/no-img-2.jpg">
+    <link rel="canonical" href="https://www.kebumenkab.go.id/">
+    <link rel="shortlink" href="https://www.kebumenkab.go.id/">
+    <title>Beranda - Website Resmi Pemerintah Kabupaten Kebumen</title>
+    <link rel="shortcut icon" href="https://www.kebumenkab.go.id/uploads/config/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="https://www.kebumenkab.go.id/uploads/config/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="https://www.kebumenkab.go.id/uploads/config/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="https://www.kebumenkab.go.id/uploads/config/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="https://www.kebumenkab.go.id/uploads/config/apple-touch-icon-144-precomposed.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://www.kebumenkab.go.id/assets/theme/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.kebumenkab.go.id/assets/theme/css/iconfonts.css">
+    <link rel="stylesheet" href="https://www.kebumenkab.go.id/assets/theme/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.kebumenkab.go.id/assets/theme/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://www.kebumenkab.go.id/assets/theme/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://www.kebumenkab.go.id/assets/theme/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://www.kebumenkab.go.id/assets/theme/css/animate.css">
+    <link rel="stylesheet" href="https://www.kebumenkab.go.id/assets/theme/css/style.css">
+    <link rel="stylesheet" href="https://www.kebumenkab.go.id/assets/theme/css/responsive.css">
+    <link rel="stylesheet" href="https://www.kebumenkab.go.id/assets/theme/css/colorbox.css">
